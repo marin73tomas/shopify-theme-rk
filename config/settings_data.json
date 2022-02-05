@@ -1,0 +1,70 @@
+{
+  "current": {
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "color_scheme": "accent-2"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_width": 70,
+          "show_line_separator": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "image",
+            "settings": {
+              "image_width": 80
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {}
+          },
+          "footer-2": {
+            "type": "text",
+            "settings": {
+              "heading": "Our mission"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2"
+        ],
+        "settings": {
+          "color_scheme": "accent-1",
+          "newsletter_enable": false,
+          "show_social": true,
+          "padding_top": 64
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo_max_width": 70
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {}
+      }
+    }
+  }
+}
